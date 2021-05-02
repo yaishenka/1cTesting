@@ -83,7 +83,7 @@ TEST_F(LeapTestCase, InvalidInputMonthLessThenZero) {
   EXPECT_THROW(GetMonthDays(2021, -1), std::invalid_argument);
 }
 
-TEST_F(LeapTestCase, InvalidInыфputMonthGreaterThenTwelwe) {
+TEST_F(LeapTestCase, InvalidInputMonthGreaterThenTwelve) {
   EXPECT_THROW(GetMonthDays(2021, 13), std::invalid_argument);
 }
 
